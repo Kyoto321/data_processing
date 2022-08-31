@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block title %}Home{% endblock title %}
+
+<hr/>
+{% block content %}
+	<div class='block-center'>
+		<h1>Data Analysis</h1>
+		<img src={% static 'main_pic.webp' %} class='ui fluid image'>
+	</div>
+
+{% endblock content %}
